@@ -1,0 +1,175 @@
+@media (max-width: 1052px) {
+    .menu-button{
+        display: block;
+    }
+    .nav-center .nav-list {
+        display: none;
+    }
+    .nav-center .nav-center-mobile{
+        display: block;
+    }
+    .nav-left .logo {
+        display: none;
+    }
+    .nav-right .search-form{
+        display: none;
+    }
+    .navbar {
+        height: 100px;
+        padding: 80px 5% 50px 5%;
+    }
+    .cover{
+        padding-top: 100px;
+    }
+    .lap-slider{
+        display: none;
+    }
+    .mob-slider{
+        display: none;
+    }
+    .mob-timer{
+        display: none;
+    }
+    .items2{
+        display: inline-block;
+    }
+    .mob-press-name{
+        display: block;
+    }
+    .press-name-container{
+        display: none;
+    }
+    .lap-content{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 1252px) and (min-width: 1052px) {
+    .navbar{
+        padding: 50px 2%;
+    }
+    .nav-list .nav-link{
+        font-size: small;
+    }
+    .nav-left .menu-button{
+        display: none;
+    }
+    .nav-center .nav-center-mobile{
+        display: none;
+    }
+    .mob-slider{
+        display: none;
+    }
+    .mob-timer{
+        display: none;
+    }
+    .mob-press-name{
+        display: block;
+    }
+    .press-name-container{
+        display: none;
+    }
+    .mob-shop-help-company{
+        display: none;
+    }
+    .mob-content{
+        display: none;
+    }
+}
+@media (min-width: 1252px) {
+    .menu-button{
+        display: none;
+    }
+    .nav-center .nav-center-mobile{
+        display: none;
+    }
+    .mob-slider{
+        display: none;
+    }
+    .mob-timer{
+        display: none;
+    }
+    .mob-press-name{
+        display: none;
+    }
+    .mob-shop-help-company{
+        display: none;
+    }
+    .mob-content{
+        display: none;
+    }
+}
+@media (max-width: 700px) {
+   .nav-center .nav-center-mobile {
+        display: none;
+   }
+   .navbar{
+        height: 50px;
+        padding: 50px 5% 25px 5%;
+   }
+    .lap-slider{
+        display: none;
+    }
+    .mob-slider{
+        display: block;
+    }
+    .nav-left .logo{
+        display: block;
+        height: 30px;
+    }
+    .cover{
+        padding-top: 50px;
+    }
+    .navbar .nav-right .mob-search{
+        display: block;
+    }
+    .mob-timer{
+        display: block;
+    }
+    .lap-timer{
+        display: none;
+    }
+    .shop-help-company{
+        display: none;
+    }
+    .email-form{
+        width: 98%;
+    }
+    .contact-info{
+        width: 100%;
+        
+    }
+    .contact-info-conect{
+        text-align: center;
+    }
+    .email{
+        width: 80%;
+    }
+    
+}
+@media (min-width:701px) and (max-width: 1052px){
+    .lap-slider{
+        display: block;
+    }
+    .mob-slider{
+        display: none;
+    }
+    .mob-timer{
+        display: block;
+    }
+    .lap-timer{
+        display: none;
+    }
+    .mob-shop-help-company{
+        display: none;
+    }
+    .mob-content{
+        display: none;
+    }
+    .lap-content{
+        display: flex;
+    
+    }
+    
+}
